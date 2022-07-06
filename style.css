@@ -270,6 +270,11 @@ body {
     float: left;
 }
 
+.email-submit-button {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
 footer {
     background-color: #0B0D17;
 }
