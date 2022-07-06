@@ -15,7 +15,7 @@ body {
     padding: 100px 0;
     background-image: url('images/donation13.jpg');
     background-repeat: no-repeat;
-    box-shadow: inset 0px 10px 250px black;
+    box-shadow: inset 50px 50px 950px black;
 }
 
 .banner h1{
@@ -27,8 +27,8 @@ body {
 }
 
 .banner p {
-    margin-right: 125px;
-    margin-left: 125px;
+    margin-right: 300px;
+    margin-left: 300px;
     margin-top: 0;
     margin-bottom: 55px;
     font-family: 'Poppins', sans-serif;
@@ -57,7 +57,9 @@ body {
 }
 
 .donate-today p {
+    color: #707070;
     font-family: 'Poppins', sans-serif;
+    margin: 0 250px;
     font-size: 18px;
     text-align: center;
 }
@@ -105,12 +107,13 @@ body {
 
 .donate-plan p {
     color: #707070;
+    margin: 0 275px;
 }
 
 .cards {
     margin-top: 60px;
     display: flex;
-    padding-left: 155px;
+    padding: 0 155px;
 }
 
 .cards div {
@@ -143,8 +146,10 @@ body {
 }
 
 .cards p {
-    padding-left: 22px;
+    margin-left: 0;
+    margin-right: 0;
     margin-bottom: 65px;
+    padding: 0 22px;
 }
 
 .updates {
@@ -155,6 +160,17 @@ body {
     background-color: #FFF4D6;
     padding: 75px 190px;
     margin: 0px 315px;
+    margin-top: 55px;
+}
+
+.updates h2 {
+    font-size: 45px;
+}
+
+.updates p {
+    font-size: 18px;
+    color: #707070;
+    margin: 0 350px;
 }
 
 .update-email input {
@@ -165,7 +181,6 @@ body {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     background-color: #D9D9D9;
-
 }
 
 .updates a {
@@ -184,13 +199,14 @@ footer {
 
 footer div {
     padding-top: 50px;
-    padding-bottom: 45px;
+    padding-bottom: 55px;
 }
 
 footer h3 {
     color: #FF5959;
     font-size: 36px;
-    margin: 38px;
+    margin-bottom: 38px;
+    font-family: "Pacifico", sans-serif;
 }
 
 footer p {
