@@ -13,7 +13,7 @@ body {
     background-size: 100%;
     color: white;
     padding: 100px 0;
-    background-image: url('images/donation13.jpg');
+    background-image: url('images/banner.jpg');
     background-repeat: no-repeat;
     box-shadow: inset 50px 50px 950px black;
 }
@@ -193,6 +193,78 @@ body {
     background-color: #FF5959;
     padding: 20px 40px;
     display: inline-block;
+}
+
+.contributions {
+    margin-top: 130px;
+    margin-bottom: 140px;
+}
+
+.contribution-card {
+    margin-top: 20px;
+    background-image: url(images/contribution-right.jpg);
+    width: 70%;
+    margin-left: auto;
+    box-shadow: inset 10px 100px 450px black,  10px 10px 50px black;
+    background-size: 100%;
+    height: 450px;
+    color: white;
+    background-repeat: no-repeat;
+}
+
+.contribution-card h3 {
+    margin: auto;
+    margin-top: 40px;
+    text-align: right;
+    display: inline-block;
+    margin-right: 5%;
+    font-size: 35px;
+    margin-left: 35%;
+}
+
+.contribution-card p {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 40%;
+    margin-right: 5%;
+    text-align: right;
+}
+
+.contribution-card a {
+    text-align: right;
+    margin-right: 5%;
+    display: block;
+    font-size: 15px;
+    padding: 10px 15px;
+    float: right;
+}
+
+.contribution-left {
+    margin-top: 20px;
+    background-image: url(images/contribution-left.jpg);
+    width: 70%;
+    box-shadow: inset 10px 100px 450px black,  10px 10px 50px black;
+    background-size: 100%;
+    height: 450px;
+    color: white;
+    background-repeat: no-repeat;
+    margin-left: 0;
+}
+
+.contribution-left h3 {
+    text-align: left;
+    margin-right: 35%;
+    margin-left: 5%;
+}
+
+.contribution-left p {
+    text-align: left;
+    margin-right: 40%;
+    margin-left: 5%;
+}
+
+.contribution-left a {
+    margin-left: 5%;
+    float: left;
 }
 
 footer {
